@@ -1,0 +1,51 @@
+.header {
+  flex: 1;
+  background-color: rgb(164, 30, 217);
+  background-color: var(--bg-color-1);
+  width: 270px;
+  height: 190px;
+  padding: 20px;
+   overflow-y: scroll;
+  position: absolute;
+  top: 5px;
+  left: 8.5px;
+
+  border-top-left-radius: 170px;
+
+  border-top-right-radius: 40px;
+  box-shadow: -5px -4px 10px black;
+  user-select: none;
+}
+
+
+
+  .header p {
+    font-size: 1rem;
+    line-height: 1.875rem;
+    color: var(--text-color-1);
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header_expression {
+    overflow-x: scroll;
+    width: 100%;
+    min-height: 30px;
+  }
+  
+  .header_expression p {
+    white-space: nowrap;
+    min-width: 100%;
+    width: fit-content;
+    font-weight: bold;
+  }
+  
+  .header_result {
+    font-weight: bold;
+    font-size: 1.3rem !important;
+    min-height: 30px;
+  }
+  
+  .margin{
+    margin-top: 20px;
+  }
